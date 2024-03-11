@@ -1,0 +1,9 @@
+{
+  "name": "v6match",
+  "version": "0.1.0",
+  "description": "Efficient CIDR blocks matching for IPv6 and IPv4.",
+  "main": "index.js",
+  "type": "module",
+  "author": "Henrize",
+  "license": "MIT"
+}
