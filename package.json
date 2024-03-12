@@ -2,8 +2,30 @@
   "name": "v6match",
   "version": "0.1.0",
   "description": "Efficient CIDR blocks matching for IPv6 and IPv4.",
+  "keywords": [
+      "ipv6",
+      "ipv4",
+      "cidr",
+      "matching",
+      "ip",
+      "address",
+      "cidr-block"
+  ],
+  "homepage": "https://github.com/henrize/v6match/",
+  "bugs": "https://github.com/henrize/v6match/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrize/v6match.git"
+  },
+  "author": {
+    "name": "Henrize",
+    "email": "mail@henrize.kim",
+    "url": "https://henrize.kim/"
+  },
   "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "type": "module",
-  "author": "Henrize",
   "license": "MIT"
 }
