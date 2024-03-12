@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "description": "Efficient CIDR blocks matching for IPv6 and IPv4.",
   "keywords": [
-      "ipv6",
-      "ipv4",
-      "cidr",
-      "matching",
-      "ip",
-      "address",
-      "cidr-block"
+    "ipv6",
+    "ipv4",
+    "cidr",
+    "matching",
+    "ip",
+    "address",
+    "cidr-block"
   ],
   "homepage": "https://github.com/henrize/v6match/",
   "bugs": "https://github.com/henrize/v6match/issues",
@@ -25,6 +25,9 @@
   "main": "index.js",
   "exports": {
     ".": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: Sorry, no tests are defined yet.\" && exit 1"
   },
   "type": "module",
   "license": "MIT"
