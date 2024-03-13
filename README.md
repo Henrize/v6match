@@ -1,15 +1,16 @@
 # v6match - Efficient CIDR blocks matching
 
 ![GitHub License](https://img.shields.io/github/license/henrize/v6match)
-[![npm Version](https://img.shields.io/npm/v/v6match)](https://www.npmjs.com/package/v6match)
+![npm Version](https://img.shields.io/npm/v/v6match)
 ![GitHub last commit](https://img.shields.io/github/last-commit/henrize/v6match)
 
------
+
 
 ## Features
 
-- 🚀 **High Performance**: With prefix tree based matching, v6match is designed to be fast and efficient. Perform 150,000+ match queries per second on a single CPU core server.
-- 🔍 **Large CIDR Block Support**: Designed to handle large sets, whether you're dealing with thousands of CIDR blocks.
+- 🌐 **Widespread Support**: v6match supports both IPv4 and IPv6 CIDR blocks, including IPv4-mapped IPv6 addresses.
+- 🚀 **High Performance**: With prefix tree based matching, v6match is designed to be fast and efficient. Perform 150,000+ match queries per second on a 1C/1G VPS.
+- 🔍 **Large CIDR Block Support**: v6match can handle thousands of CIDR blocks with ease.
 - 🛠️ **Zero Dependencies**: v6match keeps your project light with no external dependencies, making it simple to integrate and deploy.
 - ✅ **Easy to Use**: A straightforward API that gets you up and running with just a few lines of code.
 

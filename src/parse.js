@@ -143,7 +143,7 @@ function parseIPv4MappedIPv6 (address) {
     throw new Error('Invalid IPv4-mapped IPv6 address: ' + address);
   }
 
-  // Check the IPv6 address equal to ::ffff
+  // Check the IPv6 address equal to 0xffff
   if (IPv6toInteger(ipv6) !== BigInt(0xffff)) {
     throw new Error('Invalid IPv4-mapped IPv6 address: ' + address);
   }

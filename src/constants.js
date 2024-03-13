@@ -1,8 +1,5 @@
 /** IPv6 Basic Properties */
 export const v6 = {
-  /** The maximum value of an IPv6 address */
-  MAX: BigInt('0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF'),
-
   /** CIDR subnet separator */
   CIDR_SUBNET_SEPARATOR: '/',
 
